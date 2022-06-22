@@ -6,36 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "../style/style.css" type ="text/css"/>
-    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Jabones Artesanales</title>
 </head>
 <!--------------------FIN head---------------->
 
 <header>
 
     <div class="cabecera">
-        <!--
-        <div class="logo">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g>
-            <path d="M471.888,233.068c-6.286-29.204-29.085-55.649-65.764-75.723c-40.373-22.096-93.689-34.264-150.124-34.264
-                s-109.75,12.169-150.124,34.264c-36.679,20.074-59.478,46.517-65.764,75.723H0v73.011c0,45.678,37.162,82.839,82.839,82.839
-                h346.321c45.677,0,82.839-37.161,82.839-82.839v-73.011H471.888z M121.906,186.637c35.544-19.453,83.165-30.165,134.094-30.165
-                s98.55,10.713,134.094,30.165c24.454,13.382,40.597,29.453,47.032,46.431H74.876C81.309,216.091,97.454,200.019,121.906,186.637z
-                M478.609,306.079c0,27.266-22.183,49.448-49.448,49.448H82.839c-27.265,0-49.448-22.182-49.448-49.448v-39.62h445.217V306.079z"
-                /></g>
-            </svg>
-        </div>-->
-        
         <h1>Jabones Artesanales: Esencias del Alba</h1>
-        <div class="menu"><!--*********Comienzo del menú*********-->
-            <a href="../index.html">Página de inicio</a>
-            <a href="galeria.html">Galería de imágenes</a>
-            <a href="ingredientes.html">Ingredientes usados</a>
-            <a href="precios.html">Precios</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="">Seguinos en Facebook!</a>
-        </div><!--**************Fin menú************-->
     </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Página de Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acerca de jabones artesanales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./galeria.html">Galería de imágenes</a></li>
+                  <li><a class="dropdown-item" href="./ingredientes.html">Ingredientes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./precios.html">Precios</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 </header>
 
@@ -77,15 +84,17 @@
 
     </div>
 
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 <footer>
 
     <div class="pie__pagina"><!------------Inicio div pie de página--------->
         <ul class="pie__pagina__datos">
-            <li class="pie__pagina__datos"><a href="./pages/contact.html">Contacto</a></li>
-            <li class="pie__pagina__datos"><a href="https://www.Facebook.com" target="_blank" class=>Seguinos en Facebook!</a></li>
-            <li class="pie__pagina__datos"><a href="https://www.Instagram.com" target="_blank" class=>Seguinos en Instagram!</a></li>
+            <li class="pie__pagina__datos"><a href="./pages/contact.html" class="btn btn-primary">Contacto</a></li>
+            <li class="pie__pagina__datos"><a href="https://www.Facebook.com" target="_blank">Seguinos en Facebook!</a></li>
+            <li class="pie__pagina__datos"><a href="https://www.Instagram.com" target="_blank">Seguinos en Instagram!</a></li>
             <li class="pie__pagina__datos"><a href="Correo">tuchocasarotto@gmail.com</a> </li>
          </ul> 
     </div><!-------------Fin div pie de página----------------->
