@@ -26,22 +26,22 @@ img{
     fill:rgb(255, 255, 255);
     margin: 2rem;
   }*/
-  .menu a{
+  /*.menu a{
     text-decoration: none;
-  }
+  }*/
 
   .cabecera{
     width: 100%;
-    /* display: flex;
-    flex-direction: row; */
-    /*display: grid;
-    grid-template-columns: 40% 10% 10% 10% 10% 10% 10%;
-    align-items: center;*/
+    height: 20vh;
+    /*background-color: #008000;*/
+     display: flex;
+    flex-direction: row; 
+    justify-content: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHEAL1NSSeVkWZBsyaHl9dNnq0mMfLUS74XQ&usqp=CAU);
   }
 
   /*Flex-Box*/
-  .menu{
+  /*.menu{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -63,27 +63,32 @@ img{
   .menu a:hover{
       background-color: #0000ff;
       transition: all 0.5s;
-  }
+  }*/
+
 .cabecera h1{
-    text-align:center;
+    height: 100px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end;
 }
 /*Flex Box*/
-.cabecera{
+/*.cabecera{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
+}*/
 
 /*********Menú rensposive con FLEX******/
-@media screen and (max-width:800px){
+/*@media screen and (max-width:800px){
  .menu{
         flex-direction: column;
  }
-}
+}*/
 
 /*****************FIN CABECERA**************/
 
@@ -95,7 +100,7 @@ img{
 .sobre__jabones h2{
     font-size: 30px;
     text-decoration: underline;
-    background-image: linear-gradient(blue,cyan);
+    /*background-image: linear-gradient(blue,cyan);*/
 }/*FIN Clase sobre jabones artesanales*/
 
 
@@ -240,30 +245,30 @@ background-color: #B2EBF2;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-align: center;
-    background-image: linear-gradient(to top, blue, cyan);
+    /*background-image: linear-gradient(to top, blue, cyan);*/
 }
    
-
-
 /*Estilos a los títulos de los jabones*/
-.titulo__jabon{
+/*.titulo__jabon h2{
  font-family: Arial, Helvetica, sans-serif;
- text-decoration: underline;
-font-size: 10px;
+ /*text-decoration: underline;
+font-size:medium;
+justify-content: center;
 }
+
 .contenedor__titulos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /*border: 4px solid #000;*/
     /*justify-content:space-around;*/
-}
-.titulo__jabon{
+
+/*.titulo__jabon{
     justify-self: center;
-}
+}*/
 
 /******Estilos para las imágenes******/
 
-.imagen__jabon{
+/*.imagen__jabon{
     max-width: 100%;
     height: 100%;
     border: 2px solid #F08080;
@@ -276,17 +281,17 @@ font-size: 10px;
    translate: 0.5s;
 
 }*/
-.contenedor__imagenes{
+/*.contenedor__imagenes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    /*border: 4px solid #000;*/
+    /*border: 4px solid #000;
     column-gap: 5px;
 }
 .imagen__jabon{
     justify-content: center;
 
-}
+}*/
 
 /**************FIN galería de imágenes**********/
 
