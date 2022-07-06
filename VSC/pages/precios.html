@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "../style/style.css" type ="text/css"/>
+    <link rel = "stylesheet" href = "../style/styles.css" type ="text/css"/>
 
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -16,60 +16,61 @@
 
 <header>
 
-
-<!-- Inicio del menu -->
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-<div class="container-fluid">
-<!-- icono o nombre -->
-
-<a class="navbar-brand" href="#">
-  <i class="bi bi-flower1"></i>
-  <span class="text-warning">Esencias del Alba</span>
-</a>
+                  <!-- Inicio del menu -->
     
-<!-- boton del menu -->
+    <nav class="navbar navbar-expand-md">   <!--navbar-dark bg-dark -->
+      <div class="container-fluid">
+                  <!-- icono o nombre -->
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
+                  <a class="navbar-brand">
+                       <i class="bi bi-arrow-through-heart-fill"></i>
+                      <span class="text-warning">Esencias del Alba</span>
+                  </a>
+      
+                          <!-- boton del menu -->
 
-  <!-- elementos del menu colapsable -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                  </button>
 
-<div class="collapse navbar-collapse" id="menu">
-  <ul class="navbar-nav me-auto">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="../index.html">Página de inicio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./contacto.html">Contacto</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Acerca de jabones artesanales
-      </a>
+                      <!-- elementos del menu colapsable -->
 
-      <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-        <li><a class="dropdown-item" href="./galeria.html">Galería de imágenes</a></li>
-        <li><a class="dropdown-item" href="./ingredientes.html">Ingredientes</a><li>   
-        <li><a class="dropdown-item" href="./precios.html">Precios</a></li>
-      </ul>
-    </li>
-  </ul>
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Página de inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Acerca de jabones artesanales
+                      </a>
 
-  <hr class="d-md-none text-white-50">
+                           <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="./galeria.html">Galería de imágenes</a></li>
+                                  <li><a class="dropdown-item" href="./ingredientes.html">Ingredientes</a><li>   
+                                  <li><a class="dropdown-item" href="./precios.html">Precios</a></li>
+                          </ul>
+                  </li>
+              </ul>
 
-  
- <!--boton Informacion -->
+                  <hr class="d-md-none text-white-50">
 
-  <form class="d-flex">
-    <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
-  </form>
-  
-</div>
+    
+                              <!--boton Informacion -->
 
-</div>  
-</nav>
+                      <form class="d-flex">
+                          <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
+                      </form>
+    
+    
+          </div>
+
+      </div>  
+  </nav>
+
 
 </header><!-------------FIN cabecera-------------->
 <body>
@@ -130,6 +131,63 @@
 
     </section>
 
+        <!----------------Tarjetas con Bootstrap----------------->
+
+          <div class="titu_plantas">
+            <h2>Plantas que utilizamos en la preparación</h2>
+          </div>
+
+        <div class="card-group">
+          <div class="card">
+            <img src="../assets/Calendula.jpg" class="card-img-top" alt="Planta de caléndula">
+            <div class="card-body">
+              <h5 class="card-title">Caléndula</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/Jasminum.jpg" class="card-img-top" alt="Planta de jazmín">
+            <div class="card-body">
+              <h5 class="card-title">Jazmín</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/lavanda.jpg" class="card-img-top" alt="Planta de lavanda">
+            <div class="card-body">
+              <h5 class="card-title">Lavanda</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+
+         <!--------------Segundo grupo de tarjetas------------------>
+         <div class="card-group">
+          <div class="card">
+            <img src="../assets/laurel.jpg" class="card-img-top" alt="Planta de laurel">
+            <div class="card-body">
+              <h5 class="card-title">Laurel</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/Magnolia.jpg" class="card-img-top" alt="Planta de Magnolia">
+            <div class="card-body">
+              <h5 class="card-title">Magnolia</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../assets/Rosa_Mosqueta.jpg" class="card-img-top" alt="Planta de Rosa Mosqueta">
+            <div class="card-body">
+              <h5 class="card-title">Rosa mosqueta</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+
+
+
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
@@ -138,9 +196,9 @@
     
   <div class="pie__pagina"><!------------Inicio div pie de página--------->
     <ul class="pie__pagina__datos">
-        <li class="pie__pagina__datos"><a href="./pages/contact.html"class="btn btn-primary" >Contacto</a></li>
-        <li class="pie__pagina__datos"><a href="https://www.Facebook.com" target="_blank" class="link-danger">Seguinos en Facebook!</a></li>
-        <li class="pie__pagina__datos"><a href="https://www.Instagram.com" target="_blank" class="link-danger">Seguinos en Instagram!</a></li>
+        <li class="pie__pagina__datos"><a href="./pages/contact.html">Contacto</a></li>
+        <li class="pie__pagina__datos"><a href="https://www.Facebook.com" target="_blank" >Seguinos en Facebook!</a></li>
+        <li class="pie__pagina__datos"><a href="https://www.Instagram.com" target="_blank" >Seguinos en Instagram!</a></li>
         <li class="pie__pagina__datos"><a href="Correo">tuchocasarotto@gmail.com</a> </li>
      </ul> 
 </div><!-----------Fin div pie de página----------------->

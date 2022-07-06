@@ -1,0 +1,19 @@
+/*******Pie de página******/
+.pie__pagina{
+    background-color:$colorFooterFondo;
+        .pie__pagina__datos{
+            text-align: center;
+            font-family: $letraTitulo;
+            list-style: none;
+                li a:hover{
+                    color:#fff;
+                    color: $colorHoverPie;
+                            transition: all 0.8s;
+                   
+                        
+                }   
+        }
+}
+
+
+

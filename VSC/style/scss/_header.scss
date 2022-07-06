@@ -1,0 +1,24 @@
+/*Estilos para el Menú*/
+.container-fluid{
+    background-color: $fondoNav;
+    padding: 7px;
+
+        .navbar-brand{
+            font-family: $letraNombrePagina;
+
+                .collapse navbar-collapse{
+
+                    .navbar-nav me-auto a:hover{
+                        color: $coloresSeccion;
+
+                        .nav-item a:hover{
+                          
+                                .nav-link a:hover{
+                                    color: $coloresSeccion;
+                                }
+
+                        }
+                    }
+                }
+        }
+}

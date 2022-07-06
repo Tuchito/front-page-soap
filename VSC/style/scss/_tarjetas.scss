@@ -1,0 +1,25 @@
+.titu_plantas h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: $letraTitulo;
+    color: $colorTituloTarjetas;
+}
+
+.card img{
+    
+    border: 5px solid blue;
+    margin: 2px;
+}
+.card-title{
+    text-align: center;
+    font-family: $letraTarjetasContenido;
+    text-decoration: underline;
+    color:#2471A3;
+
+
+        .card-text{
+            text-align: center;
+            font-family: $letraTarjetasContenido;
+        }
+    }
+
